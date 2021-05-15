@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+	font-family: Raleway;
+}
+
+.navbar-collapse{
+	justify-content: flex-end;
+}
+
+.header{
+	background: url(https://static.dw.com/image/51427838_303.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.overlay{
+	background-color: rgba(169, 169,169, 0.35);
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	left: 0;
+	top: 0;
+
+}
+
+.header_content{
+	position: absolute;
+	top: 30%;
+	padding: 2rem;
+	margin: auto; 
+	color: white;
+	min-width: 100%;
+}
+
+.header_content h1{
+	letter-spacing: 8px;
+}
+
+.dropdown-menu{
+	background-color: #343a40!important;
+	color: white;
+}
+.dropdown-menu:hover{
+	background-color: #343a40!important;
+	color: red; 
+}
+
+.about h1{
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.about_pad{
+	padding: 0 3em;
+}
+.about_vw{
+	border-right: 2px solid black; 
+}
+
+.about{
+	padding-bottom: 4em;
+	color: #343a40!important;
+}
+
+.cars{
+	padding-bottom: 4em;
+	color: white;
+	background-color: #343a40!important;
+}
+
+.cars h1{
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.tradein{
+	padding-bottom: 4em;
+}
+
+.tradein h1{
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.order, .contact{
+	padding-bottom: 4em;
+	background-color: #343a40!important;
+}
+
+.contact .container{
+	padding-top: 4em; 
+}
+
+.contact h1{
+	color: white;
+	text-align: center;
+
+}
+
+.contactTitle{
+	padding-top: 4em;
+}
+
+.order h1{
+	padding-top: 2em;
+	padding-bottom: 1em;
+	color: white;
+}
+
+
+
+.order img{
+	padding: 2em 0; 
+}
+
+.des{
+	background-color: #343a40!important;
+	color: white;
+}
+
+.des span{
+	color: lightgrey;
+	font-size: 0.8em;
+}
+
+.team img{
+	border: 5px solid #343a40;
+}
+
+.team{
+	padding-bottom: 4em;
+}
+
+.team h1{
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
